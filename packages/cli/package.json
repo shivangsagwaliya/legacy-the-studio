@@ -1,0 +1,19 @@
+{
+  "name": "@legacy/cli",
+  "version": "1.0.0",
+  "bin": {
+    "legacy": "./dist/cli.js",
+    "legacy-mcp": "./dist/mcp-server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "mcp": "node dist/mcp-server.js"
+  },
+  "dependencies": {
+    "@legacy/core": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

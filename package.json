@@ -1,0 +1,27 @@
+{
+  "name": "legacy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Open-source professional video editor combining manual timeline editing with code and AI automation",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm --workspace=packages/app run dev",
+    "build": "npm --workspace=packages/core run build && npm --workspace=packages/app run build",
+    "cli": "npm --workspace=packages/cli run start",
+    "mcp": "npm --workspace=packages/cli run mcp"
+  },
+  "keywords": [
+    "video-editor",
+    "ai-video-editing",
+    "remotion",
+    "ffmpeg",
+    "open-source"
+  ],
+  "author": "Legacy Open Source",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.3.0"
+  }
+}

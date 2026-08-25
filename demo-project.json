@@ -1,0 +1,92 @@
+{
+  "id": "demo-proj-01",
+  "title": "Legacy Launch Reel",
+  "version": "1.0.0",
+  "settings": {
+    "aspectRatio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "sampleRate": 48000,
+    "directorStyle": "high_energy"
+  },
+  "duration": 6.0,
+  "tracks": [
+    {
+      "id": "t-video",
+      "name": "Main Video",
+      "type": "video",
+      "muted": false,
+      "locked": false,
+      "visible": true,
+      "clips": [
+        {
+          "id": "c-1",
+          "trackId": "t-video",
+          "name": "Intro Shot",
+          "type": "video",
+          "startTime": 0,
+          "duration": 3.0,
+          "sourceStartTime": 0,
+          "sourceDuration": 3.0,
+          "speed": 1.0,
+          "transform": { "x": 0, "y": 0, "scale": 1.15, "rotation": 0, "opacity": 1.0 },
+          "colorGrade": { "brightness": 5, "contrast": 15, "saturation": 20, "temperature": 0, "tint": 0, "vignette": 10, "filmGrain": 0 },
+          "keyframes": []
+        },
+        {
+          "id": "c-2",
+          "trackId": "t-video",
+          "name": "Punch Shot",
+          "type": "video",
+          "startTime": 3.0,
+          "duration": 3.0,
+          "sourceStartTime": 0,
+          "sourceDuration": 3.0,
+          "speed": 1.0,
+          "transform": { "x": 0, "y": 0, "scale": 1.0, "rotation": 0, "opacity": 1.0 },
+          "colorGrade": { "brightness": 5, "contrast": 15, "saturation": 20, "temperature": 0, "tint": 0, "vignette": 10, "filmGrain": 0 },
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": "t-subtitles",
+      "name": "Subtitles",
+      "type": "subtitle",
+      "muted": false,
+      "locked": false,
+      "visible": true,
+      "clips": [
+        {
+          "id": "sub-1",
+          "trackId": "t-subtitles",
+          "name": "WELCOME TO LEGACY",
+          "type": "subtitle",
+          "startTime": 0.5,
+          "duration": 2.5,
+          "sourceStartTime": 0,
+          "sourceDuration": 2.5,
+          "speed": 1.0,
+          "text": "WELCOME TO LEGACY",
+          "captionStyle": {
+            "fontFamily": "Impact",
+            "fontSize": 48,
+            "textColor": "#FFFFFF",
+            "highlightColor": "#FACC15",
+            "hasShadow": true,
+            "hasStroke": true,
+            "uppercase": true,
+            "animation": "bounce",
+            "positionY": 75
+          },
+          "transform": { "x": 0, "y": 0, "scale": 1, "rotation": 0, "opacity": 1 },
+          "colorGrade": { "brightness": 0, "contrast": 0, "saturation": 0, "temperature": 0, "tint": 0, "vignette": 0, "filmGrain": 0 },
+          "keyframes": []
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-08-25T15:26:00Z",
+  "updatedAt": "2026-08-25T15:26:00Z"
+}
